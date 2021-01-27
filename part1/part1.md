@@ -27,3 +27,14 @@ it is like a global variable.
      5. 4, this is because true is numerically converted to 1.
      6. "3undefined", this is because it will see 3 as a string and "+" as string concatentation.
      7. NaN, this is because undefined will be numerically converted to NaN so 3 - NaN, is NaN.
+
+15.  
+     1.   True, when comparing two different value types, JS converts the values to numbers
+     2.  False, since "12" has more characters than "2", it is greater.
+     3.  True, this is because the operand "==" converts both sides to 2.
+     4.  False, this is the strict operand "===", since they are not same type they return false.
+     5.  False, when converted to number, true becomes 1 and 1 != 2.
+     6.   True, this is because Boolean(2) is true, so true === true
+
+16. The difference between == and ===, is that === will compare two objects as they are while == will convert the two objects to numeric values if they are not the same type. If two objedts are not the same type, === will immediately return false while == will turn them into numeric values first before they return true or false.
+17. This will print out "How are you?" because Boolean(2) is true.
