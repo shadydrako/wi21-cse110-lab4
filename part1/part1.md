@@ -39,3 +39,4 @@ it is like a global variable.
 16. The difference between == and ===, is that === will compare two objects as they are while == will convert the two objects to numeric values if they are not the same type. If two objedts are not the same type, === will immediately return false while == will turn them into numeric values first before they return true or false.
 17. This will print out "How are you?" because Boolean(2) is true.
 19. This will return the array [6,8,10], The function will add 2 to the each value in the array and multiply that sum by 2. 
+20. This will print 1, then 4, then 3 , then 2.
