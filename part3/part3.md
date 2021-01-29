@@ -14,3 +14,16 @@ I would fix this by adding the Number(num1) and Number(num2), this would change 
 so the + symbol will be seen as addition.
 
 ![the fix](fix.jpg)
+
+
+### Network Tab
+
+1. citylots.json
+2. part2.js
+3. 11.7 MB
+4. 78 MS
+5. Mozilla
+6. Apache
+7. Tue, 26 Jan 2021 22:14:13 GMT
+8. application/json
+9. function fetchData()
